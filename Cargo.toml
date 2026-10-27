@@ -16,7 +16,7 @@ include = [
 ]
 
 [dependencies]
-enumerator-derive = { path = "./derive" }
+enumerator-derive = { version = "0.1", path = "./derive" }
 
 [workspace]
 members = [
