@@ -1,0 +1,23 @@
+[package]
+name = "enumerator-derive"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+readme = "README.md"
+authors = ["merl <merl.001.mia@gmail.com>"]
+description = "Recursive enum variant enumerator derive macro"
+
+repository = "https://github.com/merl-twin/enumerator/derive"
+homepage = "https://github.com/merl-twin/enumerator/derive"
+
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+syn = { version = "3", features = ["full"] }
